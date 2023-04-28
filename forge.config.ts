@@ -32,21 +32,18 @@ const config: ForgeConfig = {
       },
     }),
   ],
-  module.exports = {
-    publishers: [
-      {
-        name: '@electron-forge/publisher-github',
-        config: {
-          repository: {
-            owner: 'github-user-name',
-            name: 'github-repo-name',
-          },
-          prerelease: false,
-          draft: true,
+  publishers: [
+    {
+      name: "@electron-forge/publisher-github",
+      config: {
+        repository: {
+          owner: "DaanKwF",
+          name: "Initial_Electron_App",
         },
+        prerelease: true,
       },
-    ],
-  }
+    },
+  ],
 };
 
 export default config;
