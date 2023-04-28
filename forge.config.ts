@@ -40,7 +40,7 @@ const config: ForgeConfig = {
           owner: "DaanKwF",
           name: "Initial_Electron_App",
         },
-        prerelease: true,
+        draft: true,
       },
     },
   ],
